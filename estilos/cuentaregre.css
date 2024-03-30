@@ -1,0 +1,24 @@
+
+td {border-style: solid;
+    border-color: #cccccc;
+ border-width: 0px;
+
+
+color: #f0bb0f;  /* Cambia Color Aqui */
+
+padding: 0px;
+font-size: 50px;
+font-family: lobster;
+ text-align: center;}
+
+th {
+ border-width: 0px;
+
+
+color: #fcfcfc; /* Cambia Color Aqui */
+
+ text-align: center;
+padding: 0px;
+font-size: 17px;
+font-family: Times New Roman;}
+ 
