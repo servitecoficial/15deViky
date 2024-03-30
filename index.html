@@ -1,113 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="estilos/cuentaregre.css">
-   
-   
-    <link rel="stylesheet" href="estilos/video.css">
-    <link rel="stylesheet" href="estilos/youtube.css">
-    <title>Document</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="estilos/cuentaregre.css">
+
+
+  <link rel="stylesheet" href="estilos/video.css">
+  <link rel="stylesheet" href="estilos/youtube.css">
+  <title>Document</title>
 </head>
+
 <body>
 
 
 
 
-<!--Primer video-->
-<div>
+  <!--Primer video-->
+  <div>
     <video id="video" loop autoplay preload muted>
-        <source src="cosas/15 Victoria (6).mp4" type='video/mp4; codecs="avc1,mp4a"' />
-        <source src="cosas/15 Victoria (6).mp4" type='video/ogg; codecs="theora,vorbis"' />
-        <source src="cosas/15 Victoria (6).mp4" type='video/webm; codecs="vp8,vorbis"' />
-        </video>
-</div>
-<!--
+      <source src="cosas/15 Victoria (6).mp4" type='video/mp4; codecs="avc1,mp4a"' />
+      <source src="cosas/15 Victoria (6).mp4" type='video/ogg; codecs="theora,vorbis"' />
+      <source src="cosas/15 Victoria (6).mp4" type='video/webm; codecs="vp8,vorbis"' />
+    </video>
+  </div>
+  <!--
     reloj
 -->
 
 
-<!--Segundo video-->
-<div>
+  <!--Segundo video-->
+  <div>
     <video id="video" loop autoplay preload muted>
-        <source src="cosas/reloj2.mp4" type='video/mp4; codecs="avc1,mp4a"' />
-        <source src="cosas/reloj2.mp4" type='video/ogg; codecs="theora,vorbis"' />
-        <source src="cosas/reloj2.mp4" type='video/webm; codecs="vp8,vorbis"' />
-        </video>
-</div>
-
-
-
-
-<div class="reloj">    <!-- Contador regresivo -->
-    <section>
-   
-
-<table align="center" width="90%">
-    <tr>
-      <td><span id="days"></span></td>
-      <td><span id="hours"></th>
-      <td><span id="minutes"></span></td>
-      <td><span id="seconds"></span></td>
-    </tr>
-    <tr >
-      <th>Días</th>
-      <th>Horas</th>
-      <th>Minutos</th>
-     <th>Segundos</th>
-    </tr>
-</table>
-
-    </section> 
-    <!-- Fin contador regresivo --></div>
-
-    <!--3cer video-->
-<div>
-    <video id="video" loop autoplay preload muted>
-        <source src="cosas/15 Victoria (3).mp4" type='video/mp4; codecs="avc1,mp4a"' />
-        <source src="cosas/15 Victoria (3).mp4" type='video/ogg; codecs="theora,vorbis"' />
-        <source src="cosas/15 Victoria (3).mp4" type='video/webm; codecs="vp8,vorbis"' />
-        </video>
-</div>
-
-<!--como llegar-->
-<center><img src="cosas/yanos_logo.png" alt="" width="50%"></center>
-   <!--3cer video-->
-   <div class="video-wrapper">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/2eJ7GLOPmVY?si=OE50OMG5UX9fXHkZ&amp;controls=0"
-      title="YouTube video player" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <source src="cosas/reloj2.mp4" type='video/mp4; codecs="avc1,mp4a"' />
+      <source src="cosas/reloj2.mp4" type='video/ogg; codecs="theora,vorbis"' />
+      <source src="cosas/reloj2.mp4" type='video/webm; codecs="vp8,vorbis"' />
+    </video>
   </div>
-    <!--3cer video-->
-    <div>
-        <video id="video" loop autoplay preload muted>
-            <source src="cosas/15 Victoria (4).mp4" type='video/mp4; codecs="avc1,mp4a"' />
-            <source src="cosas/15 Victoria (4).mp4" type='video/ogg; codecs="theora,vorbis"' />
-            <source src="cosas/15 Victoria (4).mp4" type='video/webm; codecs="vp8,vorbis"' />
-            </video>
+
+
+
+
+  <div class="reloj"> <!-- Contador regresivo -->
+    <section>
+
+
+      <table align="center" width="90%">
+        <tr>
+          <td><span id="days"></span></td>
+          <td><span id="hours"></th>
+          <td><span id="minutes"></span></td>
+          <td><span id="seconds"></span></td>
+        </tr>
+        <tr>
+          <th>Días</th>
+          <th>Horas</th>
+          <th>Minutos</th>
+          <th>Segundos</th>
+        </tr>
+      </table>
+
+    </section>
+    <!-- Fin contador regresivo -->
+  </div>
+
+  <!--3cer video-->
+  <div class="video-wrapper">
+    <div class="video-wrapper">
+      <!-- Agrega el parámetro autoplay a la URL para reproducir automáticamente -->
+      <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/Aaqpf0Pfpho?si=cgck2MBcBlKdIQwB&amp;autoplay=1" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 
+    <!--como llegar-->
+    <center><img src="cosas/yanos_logo.png" alt="" width="50%"></center>
+    <!--3cer video-->
+    <div class="video-wrapper">
+      <div class="video-wrapper">
+        <!-- Agrega el parámetro autoplay a la URL para reproducir automáticamente -->
+        <iframe src="https://www.youtube.com/embed/2eJ7GLOPmVY?si=OE50OMG5UX9fXHkZ&amp;autoplay=1" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+      <!--3cer video-->
+      <div>
+        <video id="video" loop autoplay preload muted>
+          <source src="cosas/15 Victoria (4).mp4" type='video/mp4; codecs="avc1,mp4a"' />
+          <source src="cosas/15 Victoria (4).mp4" type='video/ogg; codecs="theora,vorbis"' />
+          <source src="cosas/15 Victoria (4).mp4" type='video/webm; codecs="vp8,vorbis"' />
+        </video>
+      </div>
 
 
-<div class="fondo1">
 
-</div>
+      <div class="fondo1">
 
-<audio src="cosas/inx.mp3" autoplay="autoplay" loop="loop"></audio>
-<script src="jss/relij.js" ></script>
+      </div>
 
-<p>sd</p>
-<h1>sadsa</h1>
-<br>asdas
-<br>adasd
-<br>asdasd
+      <script src="jss/relij.js"></script>
+      <script src="https://www.youtube.com/iframe_api"></script>
+      <p>sd</p>
+      <h1>sadsa</h1>
+      <br>asdas
+      <br>adasd
+      <br>asdasd
 
 
 
-<!--
+      <!--
         <svg class="defs">
         <defs>
           <g viewBox="0 0 200 200">
@@ -173,6 +178,7 @@
       </div>
 
 -->
-      
+
 </body>
+
 </html>
